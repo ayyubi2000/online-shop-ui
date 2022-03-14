@@ -1,0 +1,15 @@
+.text-item{
+       color:#646464;
+}
+.bg-item{
+               background-color: #FF8E0A;
+               height: 2px;
+}
+.item-hover:hover{
+               background-color: #FF8E0A;
+               color: aliceblue;
+}
+.item-hover{
+               font-size: 20px;
+               color:#646464;
+}

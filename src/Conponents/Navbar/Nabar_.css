@@ -1,0 +1,26 @@
+.Navbar-color{
+               background-color: #303030;
+               color: aliceblue;
+               font-size: 12px;
+}
+.text-nav{
+               color: #FF8E0A;
+}
+.font-nav{
+               font-size: 40px;
+               font-weight:bold;
+}
+.btn-nav{
+               background-color: #FF8E0A;
+}
+.bold-nav{
+               font-weight:bold;       
+}
+.text-min-nav{
+          font-size: 14px;     
+}
+.chizq{
+               width: 1350px;
+               background-color: #303030;
+               height: 1px;
+}
