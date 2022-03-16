@@ -53,7 +53,7 @@ const NavBAr = () => {
 
   return (
     <>
-      <div className="container-fluid d-flex justify-content-center pt-4 shadow-lg">
+      <div className="container-fluid d-flex justify-content-center pt-4 shadow">
         <span className="font-nav">
           <span className="text-nav">YOU</span>
           <span>SHOP</span>

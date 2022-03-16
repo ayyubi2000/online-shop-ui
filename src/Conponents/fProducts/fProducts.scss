@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#fProduct-scss{
+    background-color: #ffffff;
+  box-shadow:  rgba(149, 157, 165, 0.2 ,) 0px 8px 24px;
+
+}
+#fPCategory{
+  height: 45px;
+  align-items: center;
+
+}
+#fPCategory span:hover{
+  color: #ffffff;
+  background-color: orange;   
+}
+
+#fPCategory span{
+  padding: 13px;
+}
+#fPFooter{
+  height: 40px;
+}
