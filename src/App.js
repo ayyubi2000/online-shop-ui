@@ -14,13 +14,7 @@ function App() {
       <Laptops/>
       <Description/>
     </>
-  )
+  );
 }
-
-
-
-
-
-
 
 export default App;
