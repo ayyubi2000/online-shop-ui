@@ -1,21 +1,17 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
+import "boxicons/css/boxicons.css"
 // import Cards from './Conponents/Cards/Cards';
 // import Items from './Conponents/Item/Items';
 // import Navbar from './Conponents/Navbar/Navbar_';
-
+import FeatureProducts from './Conponents/fProducts/fProduct';
 
 function App() {
   return (
     <>
-      
+      <FeatureProducts  />
     </>
   )
 }
-
-
-
-
-
 
 
 export default App;
