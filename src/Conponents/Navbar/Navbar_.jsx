@@ -3,7 +3,7 @@ import "./Nabar_.css"
 const Navbar_ = () => {
     return (
         <>
-            <div className="Container-fluid Navbar-color" >
+            <div className="Container-fluid Navbar-color " >
                 <div className="row">
                     <div className="col-5 d-flex justify-content-center">
                         <span className="d-none d-lg-block ">
@@ -50,7 +50,7 @@ const Navbar_ = () => {
 const NavBAr = () => {
     return (
         <>
-            <div className="container-fluid d-flex justify-content-center mt-4">
+            <div className="container-fluid d-flex justify-content-center mt-4 ">
                 <span className="font-nav">
                     <span className="text-nav">YOU</span>
                     <span>SHOP</span>
