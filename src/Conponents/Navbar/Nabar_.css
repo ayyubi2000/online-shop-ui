@@ -1,26 +1,53 @@
-.Navbar-color{
-               background-color: #303030;
-               color: aliceblue;
-               font-size: 12px;
+.Navbar-color {
+  background-color: #303030;
+  color: aliceblue;
+  font-size: 12px;
 }
-.text-nav{
-               color: #FF8E0A;
+.text-nav {
+  color: #ff8e0a;
 }
-.font-nav{
-               font-size: 40px;
-               font-weight:bold;
+.font-nav {
+  font-size: 40px;
+  font-weight: bold;
 }
-.btn-nav{
-               background-color: #FF8E0A;
+.btn-nav {
+  background-color: #ff8e0a;
 }
-.bold-nav{
-               font-weight:bold;       
+.bold-nav {
+  font-weight: bold;
 }
-.text-min-nav{
-          font-size: 14px;     
+.text-min-nav {
+  font-size: 14px;
 }
-.chizq{
-               width: 1350px;
-               background-color: #303030;
-               height: 1px;
+.chizq {
+  width: 1350px;
+  background-color: #303030;
+  height: 1px;
+}
+
+.offcanvas-aa
+{
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  background: #303030 !important;
+  transition: all 0.5s;
+  z-index: 1000;
+}
+
+
+.offcanvas-aa menu
+{
+    position: relative;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid #444;
+}
+
+body
+{
+    overflow-x: hidden !important;
 }
