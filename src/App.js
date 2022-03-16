@@ -4,23 +4,18 @@ import 'bootstrap/dist/css/bootstrap.min.css';
  import Navbar from './Conponents/Navbar/Navbar_';
  import Servis from './Conponents/Servis/Servis';
 import Infotable from './Conponents/Infotable/Infotable';
-
+import Laptops from './Conponents/Laptops/Laptops'
 
 function App() {
   return (
     <>
     <Navbar />
     <Items />
+    <Laptops/>
     <Servis />
     <Infotable />
     </>
-  )
+  );
 }
-
-
-
-
-
-
 
 export default App;
