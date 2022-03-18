@@ -4,17 +4,24 @@ import Description from './Conponents/Description/Description';
 import Items from './Conponents/Item/Items';
 import Laptops from './Conponents/Laptops/Laptops';
 import Navbar from './Conponents/Navbar/Navbar_';
+import MemberLogin from './Conponents/Register/MeberLogn';
+import Register from './Conponents/Register/Register';
+import Servis from './Conponents/Servis/Servis';
 
 
 function App() {
   return (
     <>
-     <Navbar/>
+     {/* <Navbar/>
       <Items/>
+      <Servis/>
       <Laptops/>
-      <Description/>
+      <Description/> */}
+      <MemberLogin/>
+        {/* <Register/> */}
+
+
     </>
   );
 }
-
 export default App;
