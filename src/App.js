@@ -12,15 +12,6 @@ import Servis from './Conponents/Servis/Servis';
 function App() {
   return (
     <>
-     {/* <Navbar/>
-      <Items/>
-      <Servis/>
-      <Laptops/>
-      <Description/> */}
-      <MemberLogin/>
-        {/* <Register/> */}
-
-
     </>
   );
 }
