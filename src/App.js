@@ -4,12 +4,12 @@ import "bootstrap/dist/css/bootstrap.min.css";
 //import Navbar from './Conponents/Navbar/Navbar_';
 //import LikeCard from './Conponents/Cards/LikeCard'
 //import Laptops from './Conponents/Laptops/Laptops'
-
+import Noter from './Conponents/Noter/Noter'
+import './Conponents/Noter/Noter.css'
 function App() {
   return (
     <>
-   
-
+    <Noter/>
     </>
   );
 }
