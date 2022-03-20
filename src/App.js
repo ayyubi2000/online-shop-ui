@@ -10,12 +10,15 @@ import Navbar from './Conponents/Navbar/Navbar_';
 function App() {
   return (
     <>
+
       <Navbar />
       <Items/>
       <Laptops/>
       <Blog/>
+   
+
+
     </>
   );
 }
-
 export default App;
