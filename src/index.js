@@ -1,4 +1,5 @@
 import { StrictMode } from 'react';
+import "boxicons/css/boxicons.css"
 import ReactDOM from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';
 import App from "./App";

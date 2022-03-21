@@ -1,7 +1,7 @@
 import Card from 'react-bootstrap/Card'
 import Cards from '../Cards/Cards';
 import "./item.css"
-
+import {Routes , Route,Link} from 'react-router-dom';
 const Item = () => {
     return (
         <>
@@ -21,9 +21,15 @@ const Item = () => {
                         <div className='row'>
                                 <Card.Img style={{height:"180px"}} variant="top" src="https://i.pcmag.com/imagery/articles/00UFGssMaiILePzrFXVxgPj-11.fit_scale.size_1028x578.v1569489156.jpg" />
                                 <div className='col-12 mt-2 ms-1 row d-flex justify-content-center'>
-                                        <Cards />
-                                        <Cards />
-                                        <Cards />
+                                  <div className='col-4'>
+                                  <Link to="/laptops"><Cards /></Link>  
+                                  </div>
+                                  <div className='col-4'>
+                                  <Link to="/laptops"><Cards /></Link>  
+                                  </div>
+                                  <div className='col-4'>
+                                  <Link to="/laptops"><Cards /></Link>  
+                                  </div>
                                 </div>
                         </div>
 

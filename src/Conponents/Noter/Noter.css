@@ -1,0 +1,90 @@
+#wor{
+  justify-content: center;
+  padding: 30px;  
+}
+#inp{
+  border-radius: 30px;
+  border: none;
+  width: 250px;
+  overflow: hidden !important;
+  display: flex;
+  justify-content: space-between !important;  
+}
+#btn{
+    background-color:#FF8E0A ;
+
+}
+#spal{
+   margin-left: 110px; 
+   margin-top: 20px;
+}
+#buyi{
+   height: 70px; 
+   
+}
+#rasm{
+    height: 50px;
+    width: 85px;
+    margin-left: 1225px;
+    position: relative;
+    bottom: 35px;
+}
+#ral{
+    height: 50px;
+    width: 85px;
+    margin-left: 1155px;
+    position: relative;
+    bottom: 85px;
+}
+#cal{
+    height: 50px;
+    width: 85px;
+    margin-left: 1085px;
+    position: relative;
+    bottom: 135px;  
+}
+#shal{
+    height: 50px;
+    width: 85px;
+    margin-left: 1015px;
+    position: relative;
+    bottom: 185px;    
+}
+#mal{
+    height: 50px;
+    width: 85px;
+    margin-left: 945px;
+    position: relative;
+    bottom: 235px;    
+}
+#nal{
+    height: 50px;
+    width: 85px;
+    margin-left: 875px;
+    position: relative;
+    bottom: 285px;    
+}
+#jal{
+    height: 50px;
+    width: 85px;
+    margin-left: 805px;
+    position: relative;
+    bottom: 335px; 
+}
+#hal{
+    height: 50px;
+    width: 85px;
+    margin-left: 735px;
+    position: relative;
+    bottom: 385px; 
+}
+span{
+    color: lightcyan;
+    cursor: pointer;
+}
+span:hover{
+    color: aqua;
+}
+img{
+   cursor: pointer; 
+}
