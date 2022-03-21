@@ -1,6 +1,6 @@
 import { Outlet } from "react-router-dom";
 import Navbar from "../../Conponents/Navbar/Navbar_"
-// import Navbar from "../../Conponents/"
+import Footer from "../../Conponents/Footer/Footer"
 
 function Index() {
   return (
@@ -9,11 +9,11 @@ function Index() {
             <div className="col-12">
                 <Navbar />
             </div>
-            <div className="col-lg-12">
+            <div className="col-12">
                 <Outlet />
             </div>
-            <div className="col-12">
-                {/* <Footer /> */}
+            <div className="col-12 ">
+                <Footer />
             </div>
         </div>
     </div>
