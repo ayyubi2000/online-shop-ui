@@ -1,6 +1,7 @@
 import {Routes , Route} from 'react-router-dom';
-import Index from "./Layout/Main/Main";
-import Home from "./Pages/Home/Home"
+import "./Assets/Style/Config.scss";
+import Main from "./Layout/Main/Main";
+import Home from "./Pages/Home/Home";
 // import Cards from './Conponents/Cards/Cards';
 // import Description from './Conponents/Description/Description';
 // import Items from './Conponents/Item/Items';
@@ -13,7 +14,7 @@ import Home from "./Pages/Home/Home"
 function App() {
   return (
     		<Routes>
-          <Route path="/" element={<Index/>} >
+          <Route path="/" element={<Main/>} >
               <Route path="/home" element={<Home/>} />
           </Route>
 			</Routes>
