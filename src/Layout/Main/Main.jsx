@@ -1,27 +1,22 @@
+
+import { Outlet } from "react-router-dom";
 import Navbar from "../../Conponents/Navbar/Navbar_"
-import Home from "../../Pages/Home/Home"
-import { Routes, Route } from 'react-router-dom';
-import Laptops from '../../Conponents/Laptops/Laptops'
+import Footer from "../../Conponents/Footer/Footer"
+
 function Index() {
   return (
-    <div className="app">
-      <div className="container-fluid">
+    <div className="w-100">
         <div className="row">
-          <div className="col-12">
-            <Navbar />
-          </div>
-          <div className="col-12">
-            <Routes>
-              <Route path="/" element={<Home />} />
-              <Route path="/laptops" element={<Laptops />} />
-            </Routes>
-          </div>
+            <div className="col-12">
+                <Navbar />
+            </div>
+            <div className="col-12">
+                <Outlet />
+            </div>
+            <div className="col-12 ">
+                <Footer />
+            </div>
         </div>
-      </div>
-
-
-
-
     </div>
   )
 }
