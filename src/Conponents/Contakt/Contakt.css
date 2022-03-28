@@ -1,0 +1,17 @@
+.btm{
+    width: 40px;
+    height: 40px !important;
+    border: none;
+    background-color: transparent;
+}
+.box{
+    width: 68px;
+    height: 60px; 
+    border: none; 
+    background-color: transparent;
+    margin-top: 145px;
+}
+.imgs{
+    height: 200px; 
+    border-radius: 100%;
+}
