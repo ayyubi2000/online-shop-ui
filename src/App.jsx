@@ -13,9 +13,10 @@ import Home from "./Pages/Home/Home";
 
 function App() {
   return (
-    		<Routes>
+      <Routes>
           <Route path="/" element={<Main/>} >
               <Route path="/home" element={<Home/>} />
+              <Route path="/login" element={<Home/>} />
           </Route>
 			</Routes>
   );
