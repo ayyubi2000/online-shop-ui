@@ -1,17 +1,17 @@
 import Card from 'react-bootstrap/Card'
 import Cards from '../Cards/Cards';
 import "./item.css"
-
+import {Routes , Route,Link} from 'react-router-dom';
 const Item = () => {
     return (
         <>
-            <div className="container">
+            <div className="container mt-5">
                 <p className="h2 text-item">Selected Products</p>
-                <div className="col-12 mt-4">
-                    <span className="item-hover">Trending Item</span>
-                    <span className="ms-3 item-hover">New Arrivalssalom</span>
-                    <span className="ms-3 item-hover">Best Sale</span>
-                    <div className="col-12 bg-item"></div>
+                <div className="col-12 mt-5" >
+                    <button className="btn item-hover p-2">Trending Item</button>
+                    <button className="btn ms-3 item-hover p-2">New Arrivalssalom</button>
+                    <button className="btn ms-3 item-hover p-2">Best Sale</button>
+                    <div className="col-12 bg-item mt-2"></div>
                 </div>
                 <div className="col-12 row">
                     <div className="col-12 col-lg-6  mt-3">
@@ -21,9 +21,15 @@ const Item = () => {
                         <div className='row'>
                                 <Card.Img style={{height:"180px"}} variant="top" src="https://i.pcmag.com/imagery/articles/00UFGssMaiILePzrFXVxgPj-11.fit_scale.size_1028x578.v1569489156.jpg" />
                                 <div className='col-12 mt-2 ms-1 row d-flex justify-content-center'>
-                                        <Cards />
-                                        <Cards />
-                                        <Cards />
+                                  <div className='col-4'>
+                                  <Link to="/laptops"><Cards /></Link>  
+                                  </div>
+                                  <div className='col-4'>
+                                  <Link to="/laptops"><Cards /></Link>  
+                                  </div>
+                                  <div className='col-4'>
+                                  <Link to="/laptops"><Cards /></Link>  
+                                  </div>
                                 </div>
                         </div>
 

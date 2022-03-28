@@ -10,8 +10,8 @@ import imgb from "./img/b.png"
 const fProducts = () => {
     return (
         <div className="container-fluid" id="fProduct-scss">
-            <h1 className="text-secondary">Featured Products</h1>
             <div className="container ">
+            <h1 className="text-secondary">Featured Products</h1>
                 <div className="row p-4">
                     <div id="fPCategory" className="col-12 d-flex justify-content-between">
                         <span>Laptop</span>

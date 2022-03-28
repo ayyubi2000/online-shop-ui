@@ -1,16 +1,16 @@
-import axios from "axios"
-
+import Carusel from "../../Conponents/Carousel/Carusel"
+import Product from "../../Conponents/fProducts/fProduct"
+import Items from "../../Conponents/Item/Items";
+import Servis from "../../Conponents/Servis/Servis";
+import Blog from "../../Conponents/Blog/Blog";
 function Home() {
-  // axios.get('/home')
-  // .then((response) => {
-  //   console.log(response);
-  // })
-  // .catch((error) => {
-  //   console.log(error);
-  // });
   return (
     <div>
-        
+      <Carusel/>
+      <Servis/>
+      <Items/>
+      <Product/>
+      <Blog/>
     </div>
   )
 }

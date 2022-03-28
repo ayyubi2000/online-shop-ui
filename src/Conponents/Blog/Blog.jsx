@@ -1,8 +1,5 @@
 import React from 'react';
 import "./Blog.scss";
-import { FcNext } from 'react-icons/fc';
-import { MdArrowBackIosNew } from 'react-icons/md';
-
 
 function Blog() {
     return (
@@ -23,8 +20,8 @@ function Blog() {
 
                             </div>
                             <div className='col-lg-2'>
-                                <button className='btn btn-light '><MdArrowBackIosNew /></button>
-                                <button className='btn btn-light '><FcNext className='text-dark' /></button>
+                                <button className='btn btn-light '>x</button>
+                                <button className='btn btn-light '>x</button>
 
                             </div>
                         </div>
