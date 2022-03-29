@@ -7,6 +7,7 @@ import Register from "./Conponents/Register/Register"
 
 function App() {
   return (
+    
     	<Routes>
         <Route path="/" element={<Index/>} >
             <Route path="/home" element={<Home/>} />
