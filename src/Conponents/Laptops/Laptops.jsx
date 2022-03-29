@@ -1,23 +1,45 @@
 import Cards from "../Cards/Cards";
 import "./Laptops.css"
 import Accordion from 'react-bootstrap/Accordion'
+import Collapse from 'react-bootstrap/Collapse';
+import { Button } from "react-bootstrap"
+import { useState } from "react";
 
 const Laptops = () => {
+  const [open, setOpen] = useState(false);
   return (
     <div className="Laptops-bg">
       <div className="container mt-3">
         <h2>Tablet $ Laptops Acceccories </h2>
         <div className="d-flex justify-content-center">
-          <div className="col-3">
-            <Filter />
+          <div className="col-12 col-lg-3 ">
+            <Button
+              onClick={() => setOpen(!open)}
+              aria-controls="example-collapse-text"
+              aria-expanded={open}
+              className="d-lg-none ms-3"
+            >
+              x
+            </Button>
+            <Collapse in={open}>
+              <div id="example-collapse-text"className="d-lg-none">
+                <Filter />
+              </div>
+            </Collapse>
+            <Collapse in={open}>
+              <div id="example-collapse-text" className="d-lg-none d-block" >
+                <Laptops_body />
+              </div>
+            </Collapse>
+            <div className="d-lg-block d-none">
+              <Filter />
+            </div>
           </div>
-          <div className="col-9 ">
+          <div className="col-12 col-lg-9 d-lg-block d-none ">
             <Laptops_body />
           </div>
-
         </div>
       </div>
-
     </div>
   );
 }
@@ -26,7 +48,7 @@ export default Laptops;
 
 const Filter = () => {
   return (<>
-    <div className="container-fluid">
+    <div className="container-fluid ">
       <div className="container shadow-sm p-3 mb-5 bg-white rounded Filter-bg mt-3">
         <Accordion defaultActiveKey="0">
           <Accordion.Item eventKey="0">
@@ -76,18 +98,18 @@ const Filter = () => {
           </Accordion.Item>
           <Accordion.Item eventKey="5">
             <Accordion.Header className="font-weight-bold">
-            Processor Core
+              Processor Core
             </Accordion.Header>
             <Accordion.Body>
-            Tablet Data Capacity
+              Tablet Data Capacity
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="6">
             <Accordion.Header className="font-weight-bold">
-            Tablet Data Capacity
+              Tablet Data Capacity
             </Accordion.Header>
             <Accordion.Body>
-            Tablet Data Capacity
+              Tablet Data Capacity
             </Accordion.Body>
           </Accordion.Item>
         </Accordion>

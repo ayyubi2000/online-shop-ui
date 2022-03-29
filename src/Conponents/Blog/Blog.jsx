@@ -3,11 +3,11 @@ import "./Blog.scss";
 
 function Blog() {
     return (
-        <div className='container-fluid h-100  dadadiv'>
+        <div className='container-fluid h-100 dadadiv'>
             <div className='container'>
                 <div className='row'>
                     <div className='container-fluid '> 
-                        <div className='row'>
+                        <div className='row mt-4'>
                             <div className='col-lg-2'>
                                 <h3>Latest Blog</h3>
                             </div>
