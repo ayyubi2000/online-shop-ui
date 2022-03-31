@@ -53,7 +53,6 @@ function Footer() {
                             placeholder="Search"
                         /> 
                        </span>
-                       
                         <span>
                         <button className="btn btn-nav rouded-r-b pe-4" type="button">
                             <i className="bi bi-search text-white "></i>
