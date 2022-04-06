@@ -40,8 +40,7 @@ const fProducts = () => {
                         <Cards />
                         <Cards />
                         <Cards />
-                        <Cards />
-                        <Cards />
+                        
                     </div>
                 </div>
             </div>
