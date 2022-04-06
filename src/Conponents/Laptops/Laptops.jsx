@@ -1,14 +1,29 @@
 import Cards from "../Cards/Cards";
 import "./Laptops.css"
-import Accordion from 'react-bootstrap/Accordion'
+import Accordion from 'react-bootstrap/Accordion';
 import Collapse from 'react-bootstrap/Collapse';
-import { Button } from "react-bootstrap"
-import { useState } from "react";
+import useState from "react";
+import { Button } from "react-bootstrap";
+
 
 const Laptops = () => {
   const [open, setOpen] = useState(false);
   return (
     <div className="Laptops-bg">
+       <Button
+        onClick={() => setOpen(!open)}
+        aria-controls="example-collapse-text"
+        aria-expanded={open}
+      >
+        click
+      </Button>
+      <Collapse in={open}>
+        <div id="example-collapse-text">
+          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+          terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer
+          labore wes anderson cred nesciunt sapiente ea proident.
+        </div>
+      </Collapse>
       <div className="container mt-3">
         <h2>Tablet $ Laptops Acceccories </h2>
         <div className="d-flex justify-content-center">
@@ -151,3 +166,6 @@ const Laptops_body = () => {
     </>
   )
 }
+
+
+

@@ -1,11 +1,12 @@
-import Laptops from "../../Conponents/Laptops/Laptops";
+import React from 'react';
+import Laptops from "./../../Conponents/Laptops/Laptops";
 
-const Filter = () => {
-    return ( 
-                <>
-                <Laptops/>
-                </>              
-                );
+
+
+function Filter() {
+    return (
+       <Laptops/>
+    )
 }
 
 export default Filter;
