@@ -3,7 +3,10 @@ import Product from "../../Conponents/fProducts/fProduct"
 import Items from "../../Conponents/Item/Items";
 import Servis from "../../Conponents/Servis/Servis";
 import Blog from "../../Conponents/Blog/Blog";
+
+
 function Home() {
+  
   return (
     <div>
       <Carusel/>
@@ -15,4 +18,4 @@ function Home() {
   )
 }
 
-export default Home
+export default Home;

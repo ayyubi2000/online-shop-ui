@@ -1,167 +1,55 @@
 import { memo } from "react";
 import "./fProducts.scss"
-import imgw from "./img/w.png"
-import imgd from "./img/d.png"
-import imge from "./img/e.png"
-import imga from "./img/a.png"
-import imgf from "./img/f.png"
-import imgo from "./img/o.png"
-import imgb from "./img/b.png"
+import {NavDropdown} from "react-bootstrap"
+import Cards from "../Cards/Cards";
 const fProducts = () => {
     return (
-        <div className="container-fluid" id="fProduct-scss">
+        <div className="otaDIV container-fluid ">
             <div className="container ">
-            <h1 className="text-secondary">Featured Products</h1>
-                <div className="row p-4">
-                    <div id="fPCategory" className="col-12 d-flex justify-content-between">
-                        <span>Laptop</span>
-                        <span>Mobile Phones</span>
-                        <span>Tablet</span>
-                        <span>Camera&Photo</span>
-                        <span>Audio&Video</span>
-                        <span>Video Games</span>
-                        <span>Storage Devices</span>
-                        <span>Smart Electronics</span>
-                        <span>Other</span>
+                <h1 className="text-secondary">Featured Products</h1>
+                <div className="row ">
+                    <div id="fPCategory" className="col-12 d-none mt-4 d-lg-block d-flex justify-content-between">
+                        <button className="btn">Laptop</button>
+                        <button className="btn">Mobile Phones</button>
+                        <button className="btn">Tablet</button>
+                        <button className="btn">Camera&Photo</button>
+                        <button className="btn">Audio&Video</button>
+                        <button className="btn">Video Games</button>
+                        <button className="btn">Storage Devices</button>
+                        <button className="btn">Smart Electronics</button>
+                        <button className="btn">Other</button>
                     </div>
+                    <NavDropdown title="Product" id="basic-nav-dropdown" className="d-lg-none">
+                        <NavDropdown.Item id="s" >Laptop</NavDropdown.Item>
+                        <NavDropdown.Item id="s">Mobile Phones</NavDropdown.Item>
+                        <NavDropdown.Item id="s">Tablet</NavDropdown.Item>
+                        <NavDropdown.Item id="s">Camera&Photo</NavDropdown.Item>
+                        <NavDropdown.Item id="s">Audio&Video</NavDropdown.Item>
+                        <NavDropdown.Item id="s">Video Games</NavDropdown.Item>
+                        <NavDropdown.Item id="s">Storage Devices</NavDropdown.Item>
+                        <NavDropdown.Item id="s">Smart Electronics</NavDropdown.Item>
+                        <NavDropdown.Item id="s">Other</NavDropdown.Item>
+                    </NavDropdown>
                     <div className="bg-warning" style={{ height: '3px' }} ></div>
                 </div>
             </div>
-            <div className="container shadow" style={{ backgroundColor: 'white', height: '700px' }}>
-                <div className="row">
-                    <div className="col-12 d-flex flex-wrap-wrap mt-2">
-                        <div className="col-lg-2 ">
-                            <img src={imgw} style={{ width: '200px', height: '200px' }} /><br></br>
-                            <i className='bx bxs-star'></i>
-                            <i className='bx bxs-star'></i>
-                            <i className='bx bxs-star'></i>
-                            <i className='bx bxs-star'></i>
-                            <i className='bx bx-star'></i>
-                            <p>Lenovo P8 Tab3 8 plus TB </p>
-                            <p>$659.00</p>
-                        </div>
-                        <div className="col-lg-2 ">
-                            <img src={imge} style={{ width: '200px', height: '200px' }} /><br></br>
-                            <i className='bx bxs-star'></i>
-                            <i className='bx bxs-star'></i>
-                            <i className='bx bxs-star'></i>
-                            <i className='bx bxs-star'></i>
-                            <i className='bx bx-star'></i>
-                            <p>Lenovo P8 Tab3 8 plus TB </p>
-                            <p>$659.00</p>
-                        </div>
-                        <div className="col-lg-2 ">
-                            <img src={imga} style={{ width: '200px', height: '200px' }} /><br></br>
-                            <i className='bx bxs-star'></i>
-                            <i className='bx bxs-star'></i>
-                            <i className='bx bxs-star'></i>
-                            <i className='bx bxs-star'></i>
-                            <i className='bx bx-star'></i>
-                            <p>Lenovo P8 Tab3 8 plus TB </p>
-                            <p>$659.00</p>
-                        </div>
-                        <div className="col-lg-2 ">
-                            <img src={imgf} style={{ width: '200px', height: '200px' }} /><br></br>
-                            <i className='bx bxs-star'></i>
-                            <i className='bx bxs-star'></i>
-                            <i className='bx bxs-star'></i>
-                            <i className='bx bxs-star'></i>
-                            <i className='bx bx-star'></i>
-                            <p>Lenovo P8 Tab3 8 plus TB </p>
-                            <p>$659.00</p>
-                        </div>
-                        <div className="col-lg-2 ">
-                            <img src={imgo} style={{ width: '200px', height: '200px' }} /><br></br>
-                            <i className='bx bxs-star'></i>
-                            <i className='bx bxs-star'></i>
-                            <i className='bx bxs-star'></i>
-                            <i className='bx bxs-star'></i>
-                            <i className='bx bx-star'></i>
-                            <p>Lenovo P8 Tab3 8 plus TB </p>
-                            <p>$659.00</p>
-                        </div>
-                        <div className="col-lg-2 ">
-                            <img src={imgd} style={{ width: '200px', height: '200px' }} /><br></br>
-                            <i className='bx bxs-star'></i>
-                            <i className='bx bxs-star'></i>
-                            <i className='bx bxs-star'></i>
-                            <i className='bx bxs-star'></i>
-                            <i className='bx bx-star'></i>
-                            <p>Lenovo P8 Tab3 8 plus TB </p>
-                            <p>$659.00</p>
-                        </div>
-
-
-                    </div>
-                    <div className="col-12 d-flex flex-wrap-wrap mt-2">
-                        <div className="col-lg-2 ">
-                            <img src={imge} style={{ width: '200px', height: '200px' }} /><br></br>
-                            <i className='bx bxs-star'></i>
-                            <i className='bx bxs-star'></i>
-                            <i className='bx bxs-star'></i>
-                            <i className='bx bxs-star'></i>
-                            <i className='bx bx-star'></i>
-                            <p>Lenovo P8 Tab3 8 plus TB </p>
-                            <p>$659.00</p>
-                        </div>
-                        <div className="col-lg-2 ">
-                            <img src={imgw} style={{ width: '200px', height: '200px' }} /><br></br>
-                            <i className='bx bxs-star'></i>
-                            <i className='bx bxs-star'></i>
-                            <i className='bx bxs-star'></i>
-                            <i className='bx bxs-star'></i>
-                            <i className='bx bx-star'></i>
-                            <p>Lenovo P8 Tab3 8 plus TB </p>
-                            <p>$659.00</p>
-                        </div>
-                        <div className="col-lg-2 ">
-                            <img src={imgb} style={{ width: '200px', height: '200px' }} /><br></br>
-                            <i className='bx bxs-star'></i>
-                            <i className='bx bxs-star'></i>
-                            <i className='bx bxs-star'></i>
-                            <i className='bx bxs-star'></i>
-                            <i className='bx bx-star'></i>
-                            <p>Lenovo P8 Tab3 8 plus TB </p>
-                            <p>$659.00</p>
-                        </div>
-                        <div className="col-lg-2 ">
-                            <img src={imga} style={{ width: '200px', height: '200px' }} /><br></br>
-                            <i className='bx bxs-star'></i>
-                            <i className='bx bxs-star'></i>
-                            <i className='bx bxs-star'></i>
-                            <i className='bx bxs-star'></i>
-                            <i className='bx bx-star'></i>
-                            <p>Lenovo P8 Tab3 8 plus TB </p>
-                            <p>$659.00</p>
-                        </div>
-                        <div className="col-lg-2 ">
-                            <img src={imgd} style={{ width: '200px', height: '200px' }} /><br></br>
-                            <i className='bx bxs-star'></i>
-                            <i className='bx bxs-star'></i>
-                            <i className='bx bxs-star'></i>
-                            <i className='bx bxs-star'></i>
-                            <i className='bx bx-star'></i>
-                            <p>Lenovo P8 Tab3 8 plus TB </p>
-                            <p>$659.00</p>
-                        </div>
-                        <div className="col-lg-2 ">
-                            <img src={imgf} style={{ width: '200px', height: '200px' }} /><br></br>
-                            <i className='bx bxs-star'></i>
-                            <i className='bx bxs-star'></i>
-                            <i className='bx bxs-star'></i>
-                            <i className='bx bxs-star'></i>
-                            <i className='bx bx-star'></i>
-                            <p>Lenovo P8 Tab3 8 plus TB </p>
-                            <p>$659.00</p>
-                        </div>
-
-
+            <div className="container shadow-sm" style={{ backgroundColor: 'white', }}>
+                <div className="row">  
+                    <div className="mt-3 row d-flex justify-content-evenly p-1">
+                        <Cards />
+                        <Cards />
+                        <Cards />
+                        <Cards />
+                        <Cards />
+                        <Cards />
                     </div>
                 </div>
             </div>
-            <footer className="container mt-2 bg-white d-flex align-items-center justify-content-center" >
-                <i className='bx bx-revision'></i>
-                <span>Show more...</span>
+            <footer className="container" >
+                <button className="btn btn-warning w-100 mt-3">
+                    <i className='bx bx-revision'></i>
+                    show more
+                    </button>
             </footer>
         </div>
     )
