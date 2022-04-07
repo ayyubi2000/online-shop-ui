@@ -36,7 +36,7 @@ const Register = () => {
                 password:"",
                 Number:""
              }
-             }  
+             }  //44|llU9yCyRcMEJb15pINo11u8gu3CCFCWqkXC0wmwz
              validationSchema={validete}
              onSubmit={values => {
                  axios.post('/register',{
@@ -44,7 +44,7 @@ const Register = () => {
                     name: values.firstName,
                     number: values.Number,
                     lastname: values.lastName ,
-
+                    password :values.password
                  }).then(res => {
                      if(res.data.validation_errors){
                         setvalidationError(res.data.validation_errors);
@@ -53,7 +53,7 @@ const Register = () => {
                          localStorage.setItem('Name',res.data.username);
                          localStorage.setItem('Lastname',res.data.lastname);
                          localStorage.setItem('Number',res.data.number);
-                         window.location.href = 'http://localhost:3000/contact';
+                         window.location.pathname = '/';    
                       
                      }
                      console.log(res);
