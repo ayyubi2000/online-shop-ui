@@ -54,7 +54,7 @@ const Register = () => {
                          localStorage.setItem('Lastname',res.data.lastname);
                          localStorage.setItem('Number',res.data.number);
                          window.location.href = 'http://localhost:3000/contact';
-                      
+                         console.log(res);
                      }
                      console.log(res);
                  })
