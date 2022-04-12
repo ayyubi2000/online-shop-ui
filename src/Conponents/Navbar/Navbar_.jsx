@@ -30,8 +30,8 @@ const Navbar = () => {
             <div className="container-fluid  shadow">
                 <div className="row p-2">
                     <div className="col-12 col-lg-3 d-flex justify-content-center align-items-center font-nav">
-                        <strong className="text-nav">YOU</strong>
-                        <strong >SHOP</strong>
+                        <strong className="text-nav" onClick={()=> window.location.pathname = "/"}>YOU</strong>
+                        <strong onClick={()=> window.location.pathname = "/"} >SHOP</strong>
                     </div>
                     <div className="col-12 col-lg-5 d-flex justify-content-around align-items-center">
                         <input
@@ -45,25 +45,31 @@ const Navbar = () => {
                     </div>
                     <div className="col-lg-4 d-none d-lg-flex justify-content-center align-items-center">
                         <div className="ms-4">
-                            <i class="bx bx-heart fs-1 position-relative">
-                                <span class="position-absolute fs-6 top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                            <i class="bx bx-heart fs-1 position-relative"
+                             onClick={()=> window.location.pathname = "/contact"}>
+                                <span class="position-absolute fs-6 top-0 start-100 translate-middle badge rounded-pill bg-danger"
+                                 onClick={()=> window.location.pathname = "/contact"}>
                                     9+
                                 </span>
                             </i>
                         </div>
                         <div className="ms-5">
-                            <i class="bx bx-cart-alt fs-1 position-relative">
-                                <span class="position-absolute fs-6 top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                            <i class="bx bx-cart-alt fs-1 position-relative"
+                             onClick={()=> window.location.pathname = "/contact"}>
+                                <span class="position-absolute fs-6 top-0 start-100 translate-middle badge rounded-pill bg-danger"
+                                 onClick={()=> window.location.pathname = "/contact"}>
                                     9+
                                 </span>
                             </i>
                         </div>
                         <div className="ms-5">
-                            <button id="btnLogIn" className="btn btn-danger ms-1 " onClick={()=> window.location.href = "http://localhost:3000/register"} >Log In</button>
+                            <button id="btnLogIn" className="btn btn-danger ms-1 " 
+                            onClick={()=> window.location.pathname = "/register"} >Log In</button>
                         </div>
 
                         <div className="ms-3">
-                            <i class='bx bxs-user-circle fs-1 ms-4 '></i>
+                            <i class='bx bxs-user-circle fs-1 ms-4 '
+                             onClick={()=> window.location.pathname = "http://localhost:3000/contact"}></i>
                         </div>
                     </div>
                 </div>

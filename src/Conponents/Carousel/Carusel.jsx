@@ -5,21 +5,21 @@ const Carusel = () =>{
     return(
               <Carousel>
   <Carousel.Item>
-    <img
+    <img  
       className="d-block w-100"
       src={bannerbig}
       alt="First slide"
     />
   </Carousel.Item>
   <Carousel.Item>
-    <img
+    <img 
       className="d-block w-100"
       src={bannerbig}
       alt="Second slide"
     />
   </Carousel.Item>
   <Carousel.Item>
-    <img
+    <img 
       className="d-block w-100"
       src={bannerbig}
       alt="Third slide"

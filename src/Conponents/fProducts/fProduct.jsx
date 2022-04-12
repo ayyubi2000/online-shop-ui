@@ -40,14 +40,13 @@ const fProducts = () => {
                         <Cards />
                         <Cards />
                         <Cards />
-                        <Cards />
-                        <Cards />
+                        
                     </div>
                 </div>
             </div>
             <footer className="container" >
-                <button className="btn btn-warning w-100 mt-3">
-                    <i className='bx bx-revision'></i>
+                <button className="btn btn-warning w-100 mt-3" onClick={()=> window.location.pathname = "/filter"}>
+                    <i className='bx bx-revision' ></i>
                     show more
                     </button>
             </footer>
