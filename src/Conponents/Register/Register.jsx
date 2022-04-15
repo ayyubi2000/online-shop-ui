@@ -46,6 +46,7 @@ const Register = () => {
                     lastname: values.lastName ,
                     password :values.password
                  }).then(res => {
+
                      if(res.data.validation_errors){
                         setvalidationError(res.data.validation_errors);
                      }else if(res.status === 200){
@@ -53,10 +54,9 @@ const Register = () => {
                          localStorage.setItem('Name',res.data.username);
                          localStorage.setItem('Lastname',res.data.lastname);
                          localStorage.setItem('Number',res.data.number);
-                         window.location.pathname = '/';    
+                         window.location.pathname = '/contact';    
                       
                      }
-                     console.log(res);
                  })
              }}
               >

@@ -47,14 +47,14 @@ const Navbar = () => {
                     <div className="col-lg-3  d-none d-lg-flex justify-content-center align-items-center">
                         <div className="ms-4">
                             <i  class="bx bx-heart fs-1 position-relative">
-                                <span class="position-absolute fs-6 top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                                <span className="position-absolute fs-6 top-0 start-100 translate-middle badge rounded-pill bg-danger">
                                     9+
                                 </span>
                             </i>
                         </div>
                         <div className="ms-4">
-                            <i  class="bx bx-cart-alt fs-1 position-relative">
-                                <span class="position-absolute fs-6 top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                            <i  className="bx bx-cart-alt fs-1 position-relative">
+                                <span className="position-absolute fs-6 top-0 start-100 translate-middle badge rounded-pill bg-danger">
                                     9+
                                 </span>
                             </i>
@@ -63,7 +63,7 @@ const Navbar = () => {
                 </div>
             </div>
                  
-            <div className="offcanvas-aa" style={{ width: off ? "300px" : "0px" }}>
+            {/* <div className="offcanvas-aa" style={{ width: off ? "300px" : "0px" }}>
                 <div className="input-group w-75 m-auto ">
                     <input
                         type="text"
@@ -76,7 +76,7 @@ const Navbar = () => {
                         </button>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </>
     );
 };

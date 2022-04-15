@@ -2,7 +2,7 @@ function Footer() {
     return (
         <>
             <div className="container-fluid bg-dark text-white">
-                <div className="row d-flex justify-content-center">
+                <div className="row ">
                     <div className="col-lg-2 col-6 mt-3 ">
                         <h5>
                             Contact us
@@ -41,7 +41,7 @@ function Footer() {
                         <p>Beds</p>
                         <p>Bedside Tabls</p>
                     </div>
-                    <div className="col-lg-3 col-6  mt-3">
+                    <div className="col-lg-3 col-6   mt-3">
                         <h5>
                             Subscribe now
                         </h5>

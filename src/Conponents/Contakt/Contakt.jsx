@@ -22,12 +22,12 @@ const Contakt = () => {
                     </div>
                 </div>
                 <div className="col-lg-6">
-                    <h5 className="mt-5">Nora spends most of their time on...</h5>
+                    {/* <h5 className="mt-5">Nora spends most of their time on...</h5>
                     <div className='alert bg-secondary mt-3'><h3><i className="bi bi-phone"></i> Product Infrastructura</h3></div>
                     <div className='alert bg-secondary mt-3'><h3><i className="bi bi-lock"></i>Network Security</h3></div>
                     <div className='alert bg-secondary mt-3'><h3><i className="bi bi-pin-map-fill"></i> Security Testing</h3></div>
                     <div className='alert bg-secondary mt-3'><h3><i className="bi bi-globe"></i> Security Audit Outsourcing</h3></div>
-                    <div className='alert bg-secondary mt-3'><h3><i className="bi bi-bug-fill"></i> Bugs</h3></div>
+                    <div className='alert bg-secondary mt-3'><h3><i className="bi bi-bug-fill"></i> Bugs</h3></div> */}
                 </div>
             </div>
         </div>
