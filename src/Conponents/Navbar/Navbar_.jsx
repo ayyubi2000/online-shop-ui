@@ -15,12 +15,11 @@ const Navbar_ = () => {
                     <span className="ms-1"><i className="bi bi-file-earmark-lock"></i> Guaranee</span>
                     <span className="ms-1"><i className="bi bi-credit-card-2-back"></i> Payment</span>
                     <span className="ms-1"><i className="bi bi-truck"></i>Delivery</span>
-                </div>
-                <div className="col-8 col-lg-1">
-                    <span className="float-end float-lg-none me-3 me-lg-0 "><i className="bi bi-person-square"></i> Sign in</span>
+                    
                 </div>
             </div>
         </div>
+        
     );
 };
 
@@ -31,8 +30,8 @@ const Navbar = () => {
             <div className="container-fluid  shadow">
                 <div className="row p-2">
                     <div className="col-12 col-lg-3 d-flex justify-content-center align-items-center font-nav">
-                        <strong className="text-nav">YOU</strong>
-                        <strong >SHOP</strong>
+                        <strong className="text-nav" onClick={()=> window.location.pathname = "/"}>YOU</strong>
+                        <strong onClick={()=> window.location.pathname = "/"} >SHOP</strong>
                     </div>
                     <div className="col-12 col-lg-5 d-flex justify-content-around align-items-center">
                         <input
@@ -44,7 +43,7 @@ const Navbar = () => {
                             <i className="bi bi-search text-white "></i>
                         </button>
                     </div>
-                    <div className="col-lg-3  d-none d-lg-flex justify-content-center align-items-center">
+                    <div className="col-lg-4 d-none d-lg-flex justify-content-center align-items-center">
                         <div className="ms-4">
                             <i  class="bx bx-heart fs-1 position-relative">
                                 <span className="position-absolute fs-6 top-0 start-100 translate-middle badge rounded-pill bg-danger">
@@ -59,7 +58,16 @@ const Navbar = () => {
                                 </span>
                             </i>
                         </div>
-                    </div> 
+                        <div className="ms-5">
+                            <button id="btnLogIn" className="btn btn-danger ms-1 " 
+                            onClick={()=> window.location.pathname = "/register"} >Log In</button>
+                        </div>
+
+                        <div className="ms-3">
+                            <i class='bx bxs-user-circle fs-1 ms-4 '
+                             onClick={()=> window.location.pathname = "http://localhost:3000/contact"}></i>
+                        </div>
+                    </div>
                 </div>
             </div>
                  

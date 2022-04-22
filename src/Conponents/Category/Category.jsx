@@ -61,7 +61,7 @@ function Category() {
                                         <div className='divCART col-lg-9 border border-5 rounded-pill'>
                                             <h1 className='ms-5 mt-4 d-flex'>$329.99
                                                 <button className='btnCART btn btn-outline-success btn-large rounded-pill ms-3'>Add to cart</button>
-                                                <button className='btn btn-outline-success btn-large rounded-pill ms-3'></button>
+                                                <button className='btn btn-outline-success btn-large rounded-pill ms-3'><i className='bx h4 bx-heart'></i></button>
                                             </h1>
                                         </div>
                                     </div>

@@ -1,11 +1,10 @@
 import Cards from "../Cards/Cards";
 import "./Laptops.css"
-
 import Collapse from 'react-bootstrap/Collapse';
 import { useState } from "react";
 import { Button,DropdownButton,Dropdown,FormControl } from "react-bootstrap";
 import Filter from "./Filter";
-
+import Recently from "./Recently";
 
 const Laptops = () => {
   const [open, setOpen] = useState(false);
@@ -15,14 +14,14 @@ const Laptops = () => {
         <h2>Tablet $ Laptops Acceccories </h2>
         <div className="d-flex justify-content-center">
           <div className="col-12 col-lg-3 ">
-            <Button
-              onClick={() => setOpen(!open)}
+            <button
+            onClick={() => setOpen(!open)}
+              className="d-lg-none ms-3 btn-outline-warning btn"
               aria-controls="example-collapse-text"
               aria-expanded={open}
-              className="d-lg-none ms-3"
             >
-              x
-            </Button>
+              <i className='bx bx-menu-alt-left fs-3'></i>
+            </button>
             <Collapse in={open}>
               <div id="example-collapse-text" className="d-lg-none">
                 <Filter />
@@ -99,6 +98,4 @@ const Laptops_body = () => {
     </>
   )
 }
-
-
 
