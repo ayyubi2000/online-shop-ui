@@ -1,11 +1,9 @@
 import { StrictMode } from 'react';
-import "boxicons/css/boxicons.css"
 import ReactDOM from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';
+import "boxicons/css/boxicons.css";
 import App from "./App";
 import "bootstrap/dist/css/bootstrap.min.css";
-// import axios from 'axios';
-
 import axios from 'axios';
 
 // axios general configs

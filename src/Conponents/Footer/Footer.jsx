@@ -41,23 +41,27 @@ function Footer() {
                         <p>Beds</p>
                         <p>Bedside Tabls</p>
                     </div>
-                    <div className="col-lg-3 col-6   mt-3">
-                        <h5>
-                            Subscribe now
-                        </h5>
-                        <p>Contary to popular ballef of lorem ipsm Latin amet itin from</p>
-                       <span>
-                       <input
-                            type="text"
-                            className="form-control rouded-l-t"
-                            placeholder="Search"
-                        /> 
-                       </span>
-                        <span>
-                        <button className="btn btn-nav rouded-r-b pe-4" type="button">
-                            <i className="bi bi-search text-white "></i>
-                            </button>
-                            </span>
+                    <div className="col-lg-3 col-12 mt-3">
+                        <div className="col-12">
+                            <h5>
+                                Subscribe now
+                            </h5>
+                            <p>Contary to popular ballef of lorem ipsm Latin amet itin from</p>
+                        </div>
+                        <div className=" d-flex justify-content-center ">
+                            <div className="col-10">
+                                <input
+                                    type="text"
+                                    className="form-control rouded-l-t"
+                                    placeholder="Your E-mail address"
+                                />
+                            </div>
+                            <div className="col-2">
+                                <button className="btn btn-nav rouded-r-b " type="button">
+                                    <i className="bi bi-gmail text-white h6 "></i>
+                                </button>
+                            </div>
+                        </div>
                     </div>
 
                 </div>

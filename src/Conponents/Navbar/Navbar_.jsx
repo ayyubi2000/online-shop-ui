@@ -45,7 +45,7 @@ const Navbar = () => {
                     </div>
                     <div className="col-lg-4 d-none d-lg-flex justify-content-center align-items-center">
                         <div className="ms-4">
-                            <i  class="bx bx-heart fs-1 position-relative">
+                            <i  className="bx bx-heart fs-1 position-relative">
                                 <span className="position-absolute fs-6 top-0 start-100 translate-middle badge rounded-pill bg-danger">
                                     9+
                                 </span>
@@ -64,7 +64,7 @@ const Navbar = () => {
                         </div>
 
                         <div className="ms-3">
-                            <i class='bx bxs-user-circle fs-1 ms-4 '
+                            <i className='bx bxs-user-circle fs-1 ms-4 '
                              onClick={()=> window.location.pathname = "http://localhost:3000/contact"}></i>
                         </div>
                     </div>

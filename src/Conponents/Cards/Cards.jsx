@@ -3,14 +3,27 @@ import Card from 'react-bootstrap/Card';
 const Car = (props) => {
     return ( 
         <>
-         <Card style={{ width: '10rem'}} className="" onClick={()=> window.location.pathname = "/product"}>
+         <Card style={{ width: '10rem'}} onClick={()=> window.location.pathname = "/product"}>
                 <Card.Img variant="top" src={props.img}  />
                 <Card.Body>
                     <Card.Text className="">
-                        {props.Name} 
-                    <h4> {props.Sena} </h4>
+                   {props.Name} 
                     </Card.Text>
+                    <h4>{props.Sena}</h4>
                 </Card.Body>
+                <Card.Footer className="bg-white">
+                <div className=" d-flex justify-content-center">
+                    <div className="col-3">
+                       x
+                    </div>
+                    <div className="col-3">
+                        x
+                    </div>
+                    <div className="col-3">
+                        x
+                    </div>
+                </div>
+                </Card.Footer>
             </Card>
         </>
      );
