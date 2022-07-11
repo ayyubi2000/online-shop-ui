@@ -8,6 +8,7 @@ import Contact from "./Pages/Home/Contact";
 import Register from "./Pages/Home/RegisTer"
 import { useEffect, useState } from 'react';
 import axios from 'axios';
+import Login from './Conponents/Register/Login';
 
 function App() {
 
@@ -37,6 +38,7 @@ function App() {
               <Route path="/product" element={<ProductPages/>} />
           </Route>
           <Route path="/register" element={<Register/>} />
+          <Route path="/login" element={<Login/>} />
 			</Routes>
       )
 }

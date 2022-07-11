@@ -60,12 +60,17 @@ const Navbar = () => {
                         </div>
                         <div className="ms-5">
                             <button id="btnLogIn" className="btn btn-danger ms-1 " 
-                            onClick={()=> window.location.pathname = "/register"} >Log In</button>
+                            onClick={()=> window.location.pathname = "/login"} >Log In</button>
                         </div>
 
                         <div className="ms-3">
+<<<<<<< HEAD
                             <i className='bx bxs-user-circle fs-1 ms-4 '
                              onClick={()=> window.location.pathname = "http://localhost:3000/contact"}></i>
+=======
+                            <i class='bx bxs-user-circle fs-1 ms-4 '
+                             onClick={()=> window.location.pathname = "/contact"}></i>
+>>>>>>> 53fdba72c0b5971933f082135e401df2df2f3b5d
                         </div>
                     </div>
                 </div>

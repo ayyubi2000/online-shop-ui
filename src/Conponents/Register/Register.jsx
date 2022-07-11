@@ -54,8 +54,13 @@ const Register = () => {
                          localStorage.setItem('Name',res.data.username);
                          localStorage.setItem('Lastname',res.data.lastname);
                          localStorage.setItem('Number',res.data.number);
+<<<<<<< HEAD
                          window.location.pathname = '/contact';    
                       
+=======
+                         window.location.pathname = '/contact';
+                         console.log(res);
+>>>>>>> 53fdba72c0b5971933f082135e401df2df2f3b5d
                      }
                  })
              }}
